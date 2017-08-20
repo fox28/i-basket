@@ -1,7 +1,9 @@
-package com.example.apple.i_basket;
+package cn.raymond.www.iBasket;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.apple.i_basket.R;
 
 public class MainActivity extends AppCompatActivity {
 
