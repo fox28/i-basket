@@ -1,9 +1,10 @@
-package cn.raymond.www.iBasket;
+package cn.raymond.www.iBasket.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.example.apple.i_basket.R;
+
+import cn.raymond.www.iBasket.R;
 
 public class MainActivity extends AppCompatActivity {
 
