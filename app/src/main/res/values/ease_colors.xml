@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--底部菜单按钮字体颜色-->
+    <color name="menu_item_text_normal">#6A7077</color>
+    <color name="menu_item_text_checked">#ff00b4ff</color>
+    <!-- 首页底部菜单栏背景颜色-->
+    <color name="bottom_bar_taobao_bg">#F9F7F4</color>
+</resources>
