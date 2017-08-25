@@ -7,6 +7,61 @@
     android:layout_height="match_parent"
     tools:context="cn.raymond.www.iBasket.view.MainActivity">
 
+    <RadioGroup
+        android:id="@+id/rg_mainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_height_tall"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:background="@color/bottom_bar_taobao_bg"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/btn_new_goods"
+            style="@style/menu_item_style"
+            android:text="新品"
+            android:drawableTop="@drawable/selector_menu_item_new_goods"
+            android:textColor="@color/selector_main_item_text_color"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:id="@+id/btn_boutique"
+            style="@style/menu_item_style"
+            android:drawableTop="@drawable/selector_menu_item_boutique"
+            android:text="精选"
+            android:textColor="@color/selector_main_item_text_color"
+        />
+
+        <RadioButton
+            android:id="@+id/btn_category"
+            style="@style/menu_item_style"
+            android:drawableTop="@drawable/selector_menu_item_category"
+            android:text="精选"
+            android:textColor="@color/selector_main_item_text_color"
+            />
+
+        <RadioButton
+            android:id="@+id/btn_cart"
+            style="@style/menu_item_style"
+            android:drawableTop="@drawable/selector_menu_item_cart"
+            android:text="精选"
+            android:textColor="@color/selector_main_item_text_color"
+            />
+
+        <RadioButton
+            android:id="@+id/btn_personal_center"
+            style="@style/menu_item_style"
+            android:drawableTop="@drawable/selector_menu_item_person_center"
+            android:text="我的"
+            android:textColor="@color/selector_main_item_text_color"
+            />
+
+    </RadioGroup>
+    <!--<fragment-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--/>-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
