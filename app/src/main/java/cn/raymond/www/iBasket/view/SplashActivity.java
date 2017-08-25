@@ -13,7 +13,7 @@ import cn.raymond.www.iBasket.R;
  */
 
 public class SplashActivity extends AppCompatActivity {
-    private static final long LAST_TIME = 3000;
+    private static final long LAST_TIME = 2500;
 
     @Override
     public void onCreate( Bundle savedInstanceState) {

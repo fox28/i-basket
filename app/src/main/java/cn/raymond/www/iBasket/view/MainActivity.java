@@ -16,9 +16,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onSkip(View view) {
-        MFGT.startActivity(MainActivity.this, TestActivity.class);// 左面进入，右面退出——整体右滑动
-    }
 
     public void onClick(View view) {
 
