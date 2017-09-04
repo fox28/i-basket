@@ -9,4 +9,5 @@
 
     <!-- 首页底部菜单栏背景颜色-->
     <color name="bottom_bar_taobao_bg">#F9F7F4</color>
+    <color name="divide_line_1">#D6DCDC</color>
 </resources>

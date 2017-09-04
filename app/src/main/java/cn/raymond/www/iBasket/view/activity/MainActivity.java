@@ -1,4 +1,4 @@
-package cn.raymond.www.iBasket.view;
+package cn.raymond.www.iBasket.view.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,7 +6,6 @@ import android.view.View;
 
 
 import cn.raymond.www.iBasket.R;
-import cn.raymond.www.iBasket.model.utils.MFGT;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -5,10 +5,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="cn.raymond.www.iBasket.view.MainActivity">
+    tools:context="cn.raymond.www.iBasket.view.activity.MainActivity"
+    android:id="@+id/main_activity"
+    >
 
     <RadioGroup
-        android:id="@+id/rg_mainActivity"
+        android:id="@+id/main_button"
         android:layout_width="match_parent"
         android:layout_height="@dimen/view_height_tall"
         android:layout_alignParentBottom="true"
@@ -58,18 +60,20 @@
             />
 
     </RadioGroup>
-    <!--<fragment-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent"-->
-        <!--/>-->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="这是MainActivity"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+    <View
+        android:id="@+id/divide_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divide_line_1"
+        android:layout_above="@id/main_button"
+        />
+    <RelativeLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3dp"
+        android:layout_above="@id/divide_line"
+        >
 
+    </RelativeLayout>
 </RelativeLayout>
